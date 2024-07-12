@@ -1,0 +1,325 @@
+body {
+    background-color:#e7f5ff;
+    padding: 40px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content {
+    padding: 40px 80px 40px 80px;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #d4e4ff;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    width: 370px;
+    box-sizing: border-box;
+}
+
+.sidebar-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.contacts-title {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts-tipe {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+    margin-right: 8px;
+}
+
+.contacts-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2979ff;
+}
+
+.contacts-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacts-item a {
+    color: #2979ff; /* Колір посилання за замовчуванням (блакитний) */
+    text-decoration: none; /* Видалення підкреслення посилання */
+}
+
+.contacts-item a:hover {
+    color: black; /* Колір посилання при наведенні (чорний) */
+    text-decoration: underline; /* Підкреслення посилання при наведенні */
+}
+
+.contacts-container {
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.skills-list {
+    padding-left: 16px;
+
+}
+
+.skills-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+/* Main content */
+.my-proffesion {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.my-info {
+    margin-bottom: 20px;
+}
+
+.my-discription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 22px;
+}
+
+/* My project */
+.projects-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    width: 526px;
+}
+
+.projects-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin-top: 0;
+}
+
+.projects-list {
+    padding-left: 16px;
+}
+
+.projects-item-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #005fff;
+}
+
+.projects-item-tech {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+}
+
+.project-container {
+    margin-bottom: 40px;
+}
+
+/* My expirience */
+.work-expirience {
+    margin-bottom: 40px;
+    width: 526px;
+}
+
+.work-expirience-container {
+    margin-bottom: 12 px;
+}
+
+.work-expirience-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;  
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.work-expirience-organitation {
+    text-align: center;
+    color: #6d9bf5;
+    font-weight: 530;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none; /* Видалення підкреслення */
+}
+
+.work-expirience-organitation a {
+    color: #6d9bf5; /* Базовий колір посилання */
+    text-decoration: none; /* Відсутність підкреслення */
+}
+
+.work-expirience-organitation a:hover {
+    color: black; /* Колір посилання при наведенні (чорний) */
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+
+.work-expirience-company {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.work-expirience-company a {
+    color: #6d9bf5; /* Базовий колір посилання */
+    text-decoration: none; /* Відсутність підкреслення */
+}
+
+.work-expirience-company a:hover {
+    color: black; /* Колір посилання при наведенні (чорний) */
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+
+.work-expirience-company-name {
+    color: #6d9bf5;
+}
+
+.work-expirience-period {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: hsl(0, 0%, 66%);
+    margin-bottom: 8px;
+}
+
+.work-expirience-period-separator {
+    color: #000;
+}
+
+.work-expirience-duties-list {
+    padding-left: 16px;
+}
+
+.work-expirience-duties-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 16px;
+}
+
+/* Education */
+.education {
+    width: 526px;
+    margin-bottom: 40px;
+}
+
+.education-title {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+
+.education-name {
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6d9bf5;
+}
+
+.education-period {
+    line-height: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+}
+
+.education-period-separator {
+    color: #000;
+}
+
+
+.education-name-faculty {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 17px;
+}
+
+
+.education-name-speciality {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6d9bf5;;
+    line-height: 17px;
+}
+
+.language {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6d9bf5;;
+    line-height: 17px;
+}
