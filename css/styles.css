@@ -67,16 +67,6 @@ ol {
     margin-bottom: 4px;
 }
 
-.contacts-item a {
-    color: #2979ff; /* Колір посилання за замовчуванням (блакитний) */
-    text-decoration: none; /* Видалення підкреслення посилання */
-}
-
-.contacts-item a:hover {
-    color: black; /* Колір посилання при наведенні (чорний) */
-    text-decoration: underline; /* Підкреслення посилання при наведенні */
-}
-
 .contacts-container {
     margin-bottom: 40px;
 }
@@ -209,17 +199,6 @@ ol {
     text-decoration: none; /* Видалення підкреслення */
 }
 
-.work-expirience-organitation a {
-    color: #6d9bf5; /* Базовий колір посилання */
-    text-decoration: none; /* Відсутність підкреслення */
-}
-
-.work-expirience-organitation a:hover {
-    color: black; /* Колір посилання при наведенні (чорний) */
-    text-decoration: underline; /* Підкреслення при наведенні */
-}
-
-
 .work-expirience-company {
     font-weight: 700;
     font-size: 16px;
@@ -228,17 +207,6 @@ ol {
     margin-top: 0;
     margin-bottom: 12px;
 }
-
-.work-expirience-company a {
-    color: #6d9bf5; /* Базовий колір посилання */
-    text-decoration: none; /* Відсутність підкреслення */
-}
-
-.work-expirience-company a:hover {
-    color: black; /* Колір посилання при наведенні (чорний) */
-    text-decoration: underline; /* Підкреслення при наведенні */
-}
-
 
 .work-expirience-company-name {
     color: #6d9bf5;
@@ -287,7 +255,7 @@ ol {
     line-height: 20px;
     font-weight: 700;
     font-size: 16px;
-    color: #6d9bf5;
+    color: #000;
 }
 
 .education-period {
@@ -305,10 +273,9 @@ ol {
 .education-name-faculty {
     font-weight: 700;
     font-size: 14px;
-    color: #000;
+    color: #6d9bf5;
     line-height: 17px;
 }
-
 
 .education-name-speciality {
     font-weight: 500;
@@ -322,4 +289,25 @@ ol {
     font-size: 14px;
     color: #6d9bf5;;
     line-height: 17px;
+}
+
+
+.contacts-item a,
+.projects-item-link,
+.work-expirience-organitation a,
+.work-expirience-company a,
+.education-name-faculty a,
+.education-name-speciality a {
+    color: #56a8ff;
+    text-decoration: none;
+}
+
+.contacts-item a:hover,
+.projects-item-link:hover,
+.work-expirience-organitation a:hover,
+.work-expirience-company a:hover,
+.education-name-faculty a:hover,
+.education-name-speciality a:hover {
+    color: black;
+    text-decoration: underline;
 }
